@@ -71,6 +71,7 @@ h1, h2 {
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #cover-text, #cover-text h2 {
@@ -106,6 +107,7 @@ h1, h2 {
     bottom: 40px;
     left: 50px;
     top: 120px;
+    float: left;
 
     position: absolute;
 
@@ -123,6 +125,7 @@ h1, h2 {
     font-size: 17px;
     text-decoration: none;
     margin-left: 50px;  
+    
 }
 
 .button:hover {
@@ -144,8 +147,35 @@ h1, h2 {
     margin-left: 50px;
 }  
 
+span {
+    color: #a3404b;
+}
 
+/* yoga ethos */
+
+#yoga-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
    
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
 
 
 

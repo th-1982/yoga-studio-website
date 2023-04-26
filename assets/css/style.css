@@ -31,6 +31,7 @@ h1, h2 {
     font-weight: 700;
     margin-left: 30px;
     font-size: 30px;
+    
 }
 
 /* navigation links */
@@ -161,14 +162,14 @@ span {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+   
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+    
 }
    
 #center-about {
@@ -177,7 +178,46 @@ span {
     background-color: green;
 }
 
+hr {
+    border-top: 2px solid hsl(353, 61%, 64%);
+    width: 100%;
+    margin: 5px 0;
 
+}
 
+.left-about-heading {
+    width: 75%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
 
+.left-about-heading  h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.left-about-heading  p {
+    font-size: 17px;
+}
+
+.right-about-heading {
+    width: 75%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading  h2 {
+    font-size: 20px;
+    text-align: right;
+    font-weight: 700;
+}
+
+.right-about-heading  p {
+    font-size: 17px;
+    text-align: right;
+}
 

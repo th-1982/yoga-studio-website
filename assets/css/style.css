@@ -69,9 +69,10 @@ h1, h2 {
 /* hero-image and text-box */
 
 #hero-outer {
-    height: 100vh;
+/*height: 100vh; */
     width: 100%;
     overflow: hidden;
+
     position: relative;
 }
 
@@ -82,7 +83,7 @@ h1, h2 {
 /* The Background image taken from https://www.pexels.com/pexels-yan-kruka/concentrated-adults-doing-yoga-at-studio-8436934 */
 
 #hero-image {
-    height: 100vh; 
+    /* height: 100vh */
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center;
     background-size: cover;
@@ -125,7 +126,8 @@ h1, h2 {
     font-weight: 500;
     font-size: 17px;
     text-decoration: none;
-    margin-left: 50px;  
+    margin-left: 50px; 
+    
     
 }
 
@@ -150,74 +152,84 @@ h1, h2 {
 
 span {
     color: #a3404b;
-}
+} 
 
-/* yoga ethos */
-
-#yoga-ethos {
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-   
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+.section-heading {
+    text-align: center;
+    font-size: 200%;
+    margin: 10px 0;
     
 }
-   
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
+
+/* ethos section */
+
+#ethos-section {
+    min-height: 200px;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+#ethos {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+#ethos > div {
+    margin: 10px;
+    background-color: #fafafa;
+    width: 260px;
+    height: 460px;
+    padding: 20px 20px;
+    text-align: center;
+    border: 5px solid hsl(353, 61%, 64%);
+    border-radius: 20px;
+    position: relative; 
 }
 
 hr {
     border-top: 2px solid hsl(353, 61%, 64%);
     width: 100%;
     margin: 5px 0;
-
 }
 
-.left-about-heading {
-    width: 75%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+#ethos h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
-.left-about-heading  h2 {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.left-about-heading  p {
+#ethos p {
     font-size: 17px;
+
 }
 
-.right-about-heading {
-    width: 75%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+.circle-cover {
+    padding: 0;
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 
-.right-about-heading  h2 {
-    font-size: 20px;
-    text-align: right;
-    font-weight: 700;
+#bg1 {
+    background: url("../images/ethos-group.jpg") no-repeat center center;
 }
 
-.right-about-heading  p {
-    font-size: 17px;
-    text-align: right;
+#bg2 {
+    background: url("../images/ethos-class-picture.jpg") no-repeat center center;
 }
 
+#bg3 {
+    background: url("../images/ethos-students.jpg") no-repeat center center;
+}
+
+#bg4 {
+    background: url("../images/ethos-community.jpg") no-repeat center center;
+}

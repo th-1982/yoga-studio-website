@@ -233,3 +233,8 @@ hr {
 #bg4 {
     background: url("../images/ethos-community.jpg") no-repeat center center;
 }
+
+.fa-solid {
+    color: #a3404b;
+    font-size: 25px;
+}

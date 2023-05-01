@@ -202,7 +202,7 @@ hr {
     margin: 5px 0;
 }
 
-#ethos h4 {
+#ethos h3 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -240,7 +240,7 @@ hr {
 }
 
 .fa-solid {
-    font-size: 25px;
+    font-size: 30px;
     color: #a3404b;
 }
 
@@ -271,7 +271,7 @@ hr {
 
 
 #class-times h3 {
-    font-size: 20px;
+    font-size: 24px;
     margin: 10px auto;
 }
 
@@ -284,5 +284,16 @@ hr {
 
 #class-times a {
     display: inline-block;
-    margin: 20px;
+    margin: 17px;
 }
+
+#classes-times-section {
+    background-image: url("../images/class-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 20px;
+    overflow: hidden;
+}
+

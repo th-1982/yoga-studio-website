@@ -297,3 +297,39 @@ hr {
     overflow: hidden;
 }
 
+/* Footer */
+footer {
+    height: 150px;
+    width: 100%;
+    clear: both;
+}
+
+.address {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Josefin sans, sans-serif;
+    line-height: 35px;
+
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.social-networks li {
+    padding: 40px;
+    list-style-type: none;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 10px;
+    color: #3a3a3a;
+}

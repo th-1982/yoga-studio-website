@@ -333,3 +333,19 @@ footer {
     margin: 10px;
     color: #3a3a3a;
 }
+
+/* About Page */
+/* about */
+
+#about-section {
+    height: 300px;
+    width: 100px;
+    position: relative;
+    background-image: url("../images/about-bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

@@ -148,8 +148,12 @@ h1, h2 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
-    padding-top: 480px;
+    padding-top: 450px;
     margin-left: 50px;
+}
+
+#next-section {
+    padding-bottom: 50px;
 }
 
 span {
@@ -179,15 +183,15 @@ span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-around;
 
 }
 
 #ethos > div {
     margin: 10px;
     background-color: #fafafa;
-    width: 260px;
-    height: 460px;
+    width: 263px;
+    height: 490px;
     padding: 20px 20px;
     text-align: center;
     border: 5px solid hsl(353, 61%, 64%);
@@ -209,6 +213,7 @@ hr {
 
 #ethos p {
     font-size: 17px;
+    
 
 }
 
@@ -220,6 +225,7 @@ hr {
     position: absolute;
     bottom: 20px;
     left: 20px;
+    
 }
 
 #bg1 {
@@ -385,4 +391,14 @@ footer {
         background: url("../images/matimage.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
+}
+
+.instructor-bio p {
+    margin-top: 15px;
+}
+
+.instructor-bio h2 {
+    text-decoration: underline;
+    text-decoration-color: #a3404b;
+    padding-bottom: 2px;
 }

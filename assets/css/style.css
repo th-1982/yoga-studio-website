@@ -18,8 +18,7 @@ body {
 
 /* headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: Josefin sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -335,17 +334,55 @@ footer {
 }
 
 /* About Page */
-/* about */
+#about-the-instructors {
+    clear: both;
+}
 
-#about-section {
-    height: 300px;
-    width: 100px;
-    position: relative;
-    background-image: url("../images/about-bg-image.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.instructor {
+    padding: 50px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     align-items: center;
-    justify-content: flex-end;
+    gap: 30px;
+}
+
+.instructor-bio {
+    background-color: white;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.instructor-image {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#container-bg-lid {
+    background: url("../images/lidimage.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#container-bg-ask {
+    background: url("../images/askimage.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#container-bg-jpd {
+    background: url("../images/jpdimage.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#container-bg-mat {
+        background: url("../images/matimage.jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
 }

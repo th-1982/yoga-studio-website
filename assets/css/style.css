@@ -365,32 +365,32 @@ footer {
     width: 300px;
     height: 300px;
     padding: 0px;
-    border-radius: 50%;
+    border-radius: 8px;
     margin: 0 auto;
 }
 
-#container-bg-lid {
+#round-bg-lid {
     background: url("../images/lidimage.jpg") no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 
-#container-bg-ask {
+#round-bg-ask {
     background: url("../images/askimage.jpg") no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 
-#container-bg-jpd {
+#round-bg-jpd {
     background: url("../images/jpdimage.jpg") no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 
-#container-bg-mat {
+#round-bg-mat {
         background: url("../images/matimage.jpg") no-repeat center center;
         height: 100%;
-        border-radius: 50%;
+        border-radius: 8px;
 }
 
 .instructor-bio p {
@@ -402,3 +402,487 @@ footer {
     text-decoration-color: #a3404b;
     padding-bottom: 2px;
 }
+
+/* Gallery */
+#photos {
+    clear: both;
+   line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container {
+    border: 1px solid #ccc;
+}
+.container:hover {
+    border: 1px solid #777;
+}
+ 
+ 
+#gallery {
+    border-radius: 0px;
+    border-width: 2px;
+    padding-top: 50px;
+    margin-top: 50px;
+   
+
+}
+#gallery a {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+   padding: 14px 23px;
+   text-align: center;
+   margin-left: 800px;
+}
+
+
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:wght@300&display=swap');
+
+/* The following code removes all default margins, padding and borders */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Josefin sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    font-weight: 700;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+/* sets the line height for the logo and menu for a balance look */
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero-image and text-box */
+
+#hero-outer {
+    /*height: 100vh; */
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+}
+
+/* The Background image taken from https://www.pexels.com/pexels-yan-kruka/concentrated-adults-doing-yoga-at-studio-8436934 */
+
+#hero-image {
+    /* height: 100vh */
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Josefin sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 300px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-right: 40px;
+
+    background-color: rgba(219, 108, 121, 0.7);
+    border-radius: 20px;
+
+    bottom: 40px;
+    left: 50px;
+    top: 120px;
+    float: left;
+
+    position: absolute;
+
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background: hsl(353, 61%, 64%);
+    border: 2px solid white;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 50px;
+
+
+}
+
+.button:hover {
+    background: white;
+    border: 2px solid hsl(353, 61%, 64%);
+    color: hsl(353, 61%, 64%);
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#next-section h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-top: 450px;
+    margin-left: 50px;
+}
+
+#next-section {
+    padding-bottom: 50px;
+}
+
+span {
+    color: #a3404b;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 200%;
+    margin: 10px 0;
+    padding-top: 20px;
+
+}
+
+/* ethos section */
+
+#ethos-section {
+    min-height: 200px;
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+#ethos {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#ethos > div {
+    margin: 10px;
+    background-color: #fafafa;
+    width: 263px;
+    height: 490px;
+    padding: 20px 20px;
+    text-align: center;
+    border: 5px solid hsl(353, 61%, 64%);
+    border-radius: 20px;
+    position: relative;
+}
+
+hr {
+    border-top: 2px solid hsl(353, 61%, 64%);
+    width: 100%;
+    margin: 5px 0;
+}
+
+#ethos h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#ethos p {
+    font-size: 17px;
+    
+
+}
+
+.circle-cover {
+    padding: 0;
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+#bg1 {
+    background: url("../images/ethos-group.jpg") no-repeat center center;
+}
+
+#bg2 {
+    background: url("../images/ethos-class-picture.jpg") no-repeat center center;
+}
+
+#bg3 {
+    background: url("../images/ethos-students.jpg") no-repeat center center;
+}
+
+#bg4 {
+    background: url("../images/ethos-community.jpg") no-repeat center center;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: #a3404b;
+}
+
+/* Classes, Day and Time section */
+
+#class-times {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#class-times div {
+    width: 300px;
+    height: 350px;
+    background-color: bisque;
+    border: 5px solid hsl(353, 61%, 64%);
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#class-times h2 {
+    font-size: 24px;
+    margin: 10px 5px;
+}
+
+
+#class-times h3 {
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+#class-times hr {
+    border-top: 2px solid hsl(353, 61%, 64%);
+    width: 80%;
+    margin: 5px auto;
+}
+
+
+#class-times a {
+    display: inline-block;
+    margin: 17px;
+}
+
+#classes-times-section {
+    background-image: url("../images/class-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 20px;
+    overflow: hidden;
+}
+
+/* Footer */
+footer {
+    height: 150px;
+    width: 100%;
+    clear: both;
+}
+
+.address {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Josefin sans, sans-serif;
+    line-height: 35px;
+
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.social-networks li {
+    padding: 40px;
+    list-style-type: none;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 10px;
+    color: #3a3a3a;
+}
+
+/* About Page */
+#about-the-instructors {
+    clear: both;
+}
+
+.instructor {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.instructor-bio {
+    background-color: white;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.instructor-image {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+#round-bg-lid {
+    background: url("../images/lidimage.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#round-bg-ask {
+    background: url("../images/askimage.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#round-bg-jpd {
+    background: url("../images/jpdimage.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#round-bg-mat {
+        background: url("../images/matimage.jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 8px;
+}
+
+.instructor-bio p {
+    margin-top: 15px;
+}
+
+.instructor-bio h2 {
+    text-decoration: underline;
+    text-decoration-color: #a3404b;
+    padding-bottom: 2px;
+}
+
+/* Gallery */
+#photos {
+    clear: both;
+   line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container {
+    border: 1px solid #ccc;
+}
+.container:hover {
+    border: 1px solid #777;
+}
+ 
+ 
+#gallery {
+    border-width: 2px;
+    padding-top: 50px;
+    margin-top: 50px;
+   
+
+}
+#gallery a {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+
+

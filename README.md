@@ -1,108 +1,148 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Yoga Studio
+## Table of Content
+1. [Intoduction](#Introduction)
+2. [Project Goals](#Project-Goals)
 
-Welcome USER_NAME,
+   i.  [User Goals](#User-Goals)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+   ii. [Site Owner Goals](#Site-Owner-Goals)
+3. [User Experience](#User-Experience)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+   i.  [Strategy](#Strategy)
+      
+    * [Target Audience](#Target-Audience) 
+    * [User Requirements & Expectation](#User-Requirements-&-Expectation)
+    * [User Stories](#User-Stories)
 
-## Gitpod Reminders
+   ii  [Scope](#Scope)
+    * [Initial Stage](#Initial-Stage)
+    * [Future Additions](#yoga-studioFuture-Additions)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+   iii [Structure](#Structure)
+    * [Wireframes](#Wireframes)
 
-`python3 -m http.server`
+   iv [Skeleton](#Skeleton)
+    * [Header](#Header)
+    * [Footer](#Footer)
+    * [Service offered](#Service-offered)
+    * [Calls to action](#Calls-to-action)
+    * [About page](#About-page)
+    * [Contact page](#Contact-page)
+    * [Gallery and Images](#Gallery-and-Images)
+    * [Future Additions](#Future-Additions)
 
-A blue button should appear to click: _Make Public_,
+   v. [Surface](#Surface)
+    * [Color Scheme](#Color-Scheme)
+    * [Font](#Font)
+4. [Technology Used](#Technology-Used)
 
-Another blue button should appear to click: _Open Browser_.
+   i. [Language](#Language) 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+   ii. [Frameworks & Tools](#Frameworks-&-Tools)
+5. [Testing and Validation](#Testing-and-Validation)
 
-A blue button should appear to click: _Make Public_,
+   i. [HTML](#HTML)
 
-Another blue button should appear to click: _Open Browser_.
+   ii. [CSS](#css)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+   iii. [Accessibility](#Accessibility)
 
-To log into the Heroku toolbelt CLI:
+   iv. [Browser Compatability](Browser-Compatability)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+   v. [Testing User Stories](#Testing-User-Stories)
+6. [Bugs & Fixes](#Bugs-&-Fixes)
+7. [Deployment & Development](#Deployment-&-Development)
+8. [Credits](#Credits)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+## Introduction
+<hr>
+Yoga Studio Website is a Yoga Studio for adults located in Passau, Germany. The site is targeted towards adults who want to learn and practice yoga. The yoga studio offers different classes of yoga to the adults.
 
-## Release History
+## Project Goals
+<hr>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### User Goals
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* Find an excellent and inspiring yoga environment for adults in Passau, Germany.
+* Find different and guided yoga training, classes, time and dates for adults.
+* Find efficient and friendly instructors for yoga classes.
+* Become part of incredible community of like-minded adults or individuals who can connect, interact and share their passion for yoga.
+* Find an inspiring yoga space to keep people focused wherein your personal practice gets strengthened as well.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Site Owner Goals
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* To attract people from all walks of life.
+* Creating a website that will be easy to access and navigate.
+* Promote yoga by increasing awareness of its benefits for health and general wellbeing of people.
+* Imbibe a well structured yoga practice in people by making it look attractive.
+* Built a sound and safe yoga community that will be open to all.
+* Create a yoga community that will promote social interaction and bonding. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## User Experience
+<hr>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Strategy
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Target Audience
+* People interested to learn and practice yoga classes.
+* People looking for yoga studio with a efficient and friendly instructor to practice yoga.
+* People interested in learning body and mind self-improvement techniques.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### User Requirements and Expectations
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Simple and intuitive navigation system.
+* Find relevant information easily and quickly.
+* Links work as expected.
+* Easy was to contact the business.
+* Visually appealing responsive design.
+* Accessibility.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+#### User Stories
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+First-time User
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+As a first time user, I want to ...
+ 1. ...know what services are offered at Yoga Studio.
+ 2. ...know locations, times, days and types of classes offered.
+ 3. ...know how to get in contact with the business and request more information.
+ 4. ...find more information about the instructors and staff supervising the Yoga Studio.
+ 5. ...get a feel for what to expect from the yoga classes and fascilities.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ #### Returning Users
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ As a returning user, I want to ...
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  1. ...find directions to the location of the Yoga Studio.
+  2. ...see the times and type of classes offered.
+  3. ...see if there are any new classes offered.
+  4. ...find social media links to connect with the yoga studio
 
-------
+  #### Site owner
 
-## FAQ about the uptime script
+  As the site owner, I want users to ...
 
-**Why have you added this script?**
+  1. ...interact with the yoga, learn about the yoga, learn about the srevices offered, learn about the benefits of the service, and request more information.
+  2. ...feel comfortable and at ease reaching out for more information.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+  ### Scope
 
-**How will this affect me?**
+  #### Initial Stage
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  At the early stage the site will include the basic yoga relevant information. It will include information on the yoga studio and it's motivating principles. It will include a list of classes of yoga offered. It will communicate to the user the experience and trustworthyness of the staff running the yoga studio. It will make contacting the school easy and promote an approachabe image. The site will include a photo gallery full of impressions of the yoga studio and it's operation.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  #### Future Additions
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+  In future expansion the site could include a more detailed area for classes of yoga, Blogs, yoga worshops and pricing structure of the yoga services offered.
 
-**So….?**
+  ### Structure
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+  #### Wireframes
 
-**Can I opt out?**
+  The structure of the initial site will include four pages:
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+  1. **Home Page** with navigation features in a header and footer, a section on the motivational messages and a section on the classes of yoga offered and information on location.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
-
-Happy coding!

@@ -188,7 +188,7 @@ span {
 
 }
 
-#ethos > div {
+#ethos>div {
     margin: 10px;
     background-color: #fafafa;
     width: 263px;
@@ -539,15 +539,6 @@ footer {
     text-decoration: none;
 }
 
-.text-center hr {
-    border-top: 2px solid hsl(353, 61%, 64%);
-    width: 30%;
-}
-
-.text-center {
-    margin-left: 400px;
-}
-
 
 /* Media Queires */
 /* Responsiveness for mediun screen size and for small screen size */
@@ -556,9 +547,6 @@ footer {
         column-count: 3;
     }
 
-    .text-center {
-        margin-left: 200px;
-    }
 }
 
 /* Responsiveness for mediun screen size */
@@ -586,15 +574,15 @@ footer {
         column-count: 2;
     }
 
-
-    .text-center {
-        margin-left: 50px;
-    }
-
     .sign-up-form {
         margin-left: 20px;
     }
+
+    .instructor-bio {
+        width: 100%;
+    }
+
+    .instructor-image {
+        width: 100%;
+    }
 }
-
-
-

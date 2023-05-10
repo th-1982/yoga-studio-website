@@ -129,11 +129,11 @@ As a first time user, I want to ...
 
   #### Initial Stage
 
-  At the early stage the site will include the basic yoga relevant information. It will include information on the yoga studio and it's motivating principles. It will include a list of classes of yoga offered. It will communicate to the user the experience and trustworthyness of the staff running the yoga studio. It will make contacting the school easy and promote an approachabe image. The site will include a photo gallery full of impressions of the yoga studio and it's operation.
+  At the early stage the site will include the basic yoga information. There will be information of the motivating principles of the yoga studio. There will be a list of classes of yoga offered. The level of experience and trustworthiness of the staff working at the yoga studio will be made accessible to the users. The yoga studio will have an approachable image thereby making it easy to contract. There will be a photo gallery on the site with nice impression of yoga studio and it's operations. 
 
   #### Future Additions
 
-  In future expansion the site could include a more detailed area for classes of yoga, Blogs, yoga worshops and pricing structure of the yoga services offered.
+  In future, the site will be expanded to include more  detailed area for yoga classes, blogs, and  worshops. The pricing structure of the yoga services will also be  offered.
 
   ### Structure
 
@@ -142,6 +142,8 @@ As a first time user, I want to ...
   The structure of the initial site will include four pages:
 
   1. **Home Page** with navigation features in a header and footer, a section on the motivational messages and a section on the classes of yoga offered and information on location.
+  2. **About Page** with information on the instructors and more details about the classes of yoga they fascilitate. This page will include the same header and footer as the main page.
+  3. **Contact Page** with a detailed form that includes name and email address fields, as well as details on the users interest in the yoga studio. There will be a field for a text message and contact form received as well.
 
 
 

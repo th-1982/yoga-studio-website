@@ -14,7 +14,7 @@
     * [User Requirements & Expectation](#User-Requirements-&-Expectation)
     * [User Stories](#User-Stories)
 
-   ii  [Scope](#Scope)
+   ii.  [Scope](#Scope)
     * [Initial Stage](#Initial-Stage)
     * [Future Additions](#yoga-studioFuture-Additions)
 
@@ -56,11 +56,10 @@
 
 
 ## Introduction
-<hr>
+
 Yoga Studio Website is a Yoga Studio for adults located in Passau, Germany. The site is targeted towards adults who want to learn and practice yoga. The yoga studio offers different classes of yoga to the adults.
 
 ## Project Goals
-<hr>
 
 ### User Goals
 
@@ -80,7 +79,6 @@ Yoga Studio Website is a Yoga Studio for adults located in Passau, Germany. The 
 * Create a yoga community that will promote social interaction and bonding. 
 
 ## User Experience
-<hr>
 
 ### Strategy
 
@@ -100,7 +98,7 @@ Yoga Studio Website is a Yoga Studio for adults located in Passau, Germany. The 
 
 #### User Stories
 
-First-time User
+##### First-time User
 
 As a first time user, I want to ...
  1. ...know what services are offered at Yoga Studio.
@@ -109,7 +107,7 @@ As a first time user, I want to ...
  4. ...find more information about the instructors and staff supervising the Yoga Studio.
  5. ...get a feel for what to expect from the yoga classes and fascilities.
 
- #### Returning Users
+ ##### Returning Users
 
  As a returning user, I want to ...
 
@@ -118,7 +116,7 @@ As a first time user, I want to ...
   3. ...see if there are any new classes offered.
   4. ...find social media links to connect with the yoga studio
 
-  #### Site owner
+  ##### Site owner
 
   As the site owner, I want users to ...
 
@@ -133,7 +131,7 @@ As a first time user, I want to ...
 
   #### Future Additions
 
-  In future, the site will be expanded to include more  detailed area for yoga classes, blogs, and  worshops. The pricing structure of the yoga services will also be  offered.
+  In future, the site will be expanded to include more  detailed area for yoga classes, blogs, Testimonials and  worshops. The pricing structure of the yoga services will also be  offered.
 
   ### Structure
 
@@ -142,8 +140,182 @@ As a first time user, I want to ...
   The structure of the initial site will include four pages:
 
   1. **Home Page** with navigation features in a header and footer, a section on the motivational messages and a section on the classes of yoga offered and information on location.
+
+  ![Home](readme-images/home-top.jpg)
+
+  ![Home](readme-images/home-middle.jpg)
+
+  ![Home](readme-images/home-middle.jpg)
+
+
   2. **About Page** with information on the instructors and more details about the classes of yoga they fascilitate. This page will include the same header and footer as the main page.
+
+  ![About](readme-images/about.jpg)
+
   3. **Contact Page** with a detailed form that includes name and email address fields, as well as details on the users interest in the yoga studio. There will be a field for a text message and contact form received as well.
+
+  ![Contact](readme-images/signup.jpg)
+
+  **Gallery Page** with a wealth of images on display that will give a feel  of the yoga studio.  The gallery will be accessible to users from all devices.
+
+  ![Gallery](readme-images/gallery.jpg)
+
+  ### Skeleton
+
+  The website contain four pages, as earlier described in the previous section with the aid of wireframes, which all have a consistent header and footer. The home page includes several calls to action, which link to the about page. The gallery has an interactive caption feature and also a link. Here are more details of the various page features:
+
+  #### Header
+  <details>
+  <summary>Screenshot of header on desktop</summary>
+  <img src="readme-images/header.jpg" width="750">
+  </details>
+  <details>
+  <summary>Screenshot of header on mobile</summary>
+  <img src="readme-images/mobileheader.jpg" width="450">
+  </details>
+
+  * Featured on all four main pages
+  * Includes the website name/logo and a menu with links to the Homepage, About page, Gallery page and Contact page.
+  * The header is fully responsive and changes to fill lines on smaller screens.
+  * If a user hovers over a menu option in desktop mode an animated bar shows them which option they are choosing.
+
+  #### Footer
+  <details>
+  <summary>Screenshot of Footer</summary>
+  <img src="readme-images/footer.jpg" width="550">
+  </details>
+  <details>
+  <summary>Screenshot of footer on mobile</summary>
+  <img src="readme-images/mobilefooter.jpg" width="450">
+  </details>
+
+  * Featured on all four main pages
+  * Includes the address and location of the yoga studio.
+  * Includes links to the social media pages which the yoga studio maintains: Facebook, Twitter, Instram, and YouTube.
+  * All links open in a new window.
+  * The footer is fully responsive and changes to fill two lines on smaller screens.
+
+  #### Services offered
+  <details>
+  <summary>Screenshot of Service offered</summary>
+  <img src="readme-images/servicesofferedsection.jpg" width="750">
+  </details>
+
+  * Four panels detail the services and classes of yoga offered at the yoga studio.
+  * Days and class times are specifed.
+  * A call to action for more information is included in each panel.
+
+  #### Call to action
+  <details>
+  <summary>Screenshot of calls to action</summary>
+  <img src="readme-images/calltoactionbutton.jpg" width="750">
+  </details>
+
+  * A call to action features is in the hero image. It links to the services/classes of yoga offered section.
+  * The call to action buttons in the panels for the classes of yoga offered link to About page and specifically the instructors running that class.
+
+  #### About page
+  <details>
+  <summary>Screenshot of About page</summary> 
+  <img src="readme-images/aboutpage.jpg" width="750">
+  </details>
+
+  * Features four images with information on each of the instructors with a short biography and information on the class.
+
+  #### Contact page
+  <details>
+  <summary>Screenshot of Contact page top</summary>
+  <img src="readme-images/contactformtop.jpg" width="550">
+  </details>
+  <details>
+  <summary>Screenshot of Contact page bottom</summary>
+  <img src="readme-images/contactformbottom.jpg" width="550">
+  </details>
+
+  * Features a detailed form that a customer can submit to express specific interest and request more information.
+
+  #### Gallery page and Images
+  <details>
+  <summary>Screenshot of Gallery page</summary>
+  <img src="readme-images/gallerypage.jpg" width="750">
+  </details>
+
+  * Features images of yoga class performed by the instructors and students of the yoga studio.
+  * If a user hovers over the image in desktop a superimposed caption appears on each image.
+  * The submit your photos button link to images in the gallery page.
+  * If the user click on each of the image, the image will navigate to seperate page.
+
+  #### Future Additions
+  A features to be implemneted in the future is an Google map with the location of the school at the bottom of the contact page.
+
+  ### Surface
+  The surface design of the website is aimed to add a stylish and appealing look to the website inorder to attract people to sin up for yoga classes . The color schemes and font were chosen accordingly.
+
+  #### Color Scheme
+  The color scheme is a balance of vibrant and energetic that draw attention and convey yoga energy. The vibrant colors was chosen together with the hero image and a desire for them to blend together. It was used to structure all vital imformation on the website and all clickable buttons are styled with this this color. The remaining features on the website and font are a balanace of a dark grey or black, as well as white or off white in order to maintain contrast and readability.
+
+  ![Color Scheme](readme-images/colorscheme.jpg)
+
+  #### Font
+  Josefin sans is the font used for the heading in the site and Lato font is used for the main body and lowerlevel headings. These fonts were chosen to maintain clarity and legibility in the site.
+
+  ## Technologies Used
+
+  ### Languages
+  * HTML
+  * CSS
+
+  ### Frameworks & Tools
+  * Git
+  * GitHub
+  * Gitpod
+  * Balsamiq
+  * Google Fonts
+  * Font Awesome
+  * Coolors.co
+  * TinyPNG
+  * W3 Schools
+
+  ## Testing and Validation
+
+  ### HTML Validation
+
+  The W3C markup Validation Service was used to validate the HTML of the website. All pages passed with no errors or warnings.
+  <details>
+  <summary>Home</summary>
+  <img src="readme-images/indexhtmlval.jpg" width="750">
+  </details>
+  <details>
+  <summary>About</summary>
+  <img src="readme-images/abouthtmlval.jpg" width="750">
+  </details>
+  <details>
+  <summary>Gallery</summary>
+  <img src="readme-images/galleryhtmlval.jpg" width="750">
+  </details>
+  <details>
+  <summary>Contact</summary>
+  <img src="readme-images/signuphtmlval.jpg" width="750">
+  </details>
+
+  ### CSS Validation
+
+  The W3C Jigsaw CSS Validation Service was used to validation the CSS of the website. The code passed with no errors or warnings.
+   <details>
+  <summary>CSS Validation Screenshot</summary>
+  <img src="readme-images/cssvalidation.jpg" width="750">
+  </details>
+
+  ### Accessibilty & Performance
+
+  The lighthouse feature on Google Devtools was used to assess accessibilty and performance. All pages score high on accessibilty. The gallery page score lowest on performance due to the large number of images. 
+
+  
+
+
+
+
+
 
 
 

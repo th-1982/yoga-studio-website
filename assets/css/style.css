@@ -115,7 +115,6 @@ h2 {
     float: left;
 
     position: absolute;
-
 }
 
 /* Button Styling */
@@ -130,8 +129,6 @@ h2 {
     font-size: 17px;
     text-decoration: none;
     margin-left: 50px;
-
-
 }
 
 .button:hover {
@@ -215,7 +212,6 @@ hr {
 #ethos p {
     font-size: 17px;
 
-
 }
 
 .circle-cover {
@@ -275,7 +271,6 @@ hr {
     margin: 10px 5px;
 }
 
-
 #class-times h3 {
     font-size: 24px;
     margin: 10px auto;
@@ -286,7 +281,6 @@ hr {
     width: 80%;
     margin: 5px auto;
 }
-
 
 #class-times a {
     display: inline-block;
@@ -425,14 +419,11 @@ footer {
     border: 1px solid #777;
 }
 
-
 #gallery {
     border-radius: 0px;
     border-width: 2px;
     padding-top: 50px;
     margin-top: 50px;
-
-
 }
 
 #gallery a {

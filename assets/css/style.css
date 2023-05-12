@@ -419,22 +419,6 @@ footer {
     border: 1px solid #777;
 }
 
-#gallery {
-    border-radius: 0px;
-    border-width: 2px;
-    padding-top: 50px;
-    margin-top: 50px;
-}
-
-#gallery a {
-    font-size: 17px;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 14px 23px;
-    text-align: center;
-    margin-left: 800px;
-}
-
 /* Sign up page */
 .form-section {
     clear: both;

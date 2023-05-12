@@ -248,7 +248,6 @@ As a first time user, I want to ...
   </details>
 
   * Features images of yoga class performed by the instructors and students in the yoga studio.
-  * The submit your photos button has internal link so that when the user click on it, it will take them to gallery.
   * The images in the gallery page has hover effect.
   * When the image in the gallery page are click, it will open in any new page.
 
